@@ -21,7 +21,7 @@
 			"wondrous": true,
 			"tier": "minor",
 			"rarity": "common",
-			"source": "MAI",
+			"source": "MoiraiAdditionalinformation",
 			"entries": [
 				"You can cast {@spell dispel magic} at your highest spell slot once per long rest."
 			]
