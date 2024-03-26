@@ -4,10 +4,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "MoiraiAdditionalinformation",
+				"json": "MAI",
 				"abbreviation": "MAI",
 				"full": "Moirai Additional information",
-				"version": "1",
+				"version": "1.0",
 				"url": "https://github.com/LauranEkeren/D-DHomebrew",
 				"authors": [
 					"Lauran"
@@ -21,7 +21,7 @@
 			"wondrous": true,
 			"tier": "minor",
 			"rarity": "common",
-			"source": "MoiraiAdditionalinformation",
+			"source": "MAI",
 			"entries": [
 				"You can cast {@spell dispel magic} at your highest spell slot once per long rest."
 			]
@@ -59,7 +59,7 @@
 				]
 			},
 			"entries": [],
-			"source": "MoiraiAdditionalinformation"
+			"source": "MAI"
 		}
 	]
 }
