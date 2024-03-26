@@ -29,8 +29,123 @@
 			"entries": [
 				"You can cast {@spell dispel magic} at your highest spell slot once per long rest."
 			]
-		}
+		},
+        {
+			"name": "Calemburg Amulet",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+				"You can cast {@spell speak with dead} at once per long rest."
+			]
+		},
+        {
+			"name": "Castellan staf",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "Needs attunement",
+				"+1 magical focus.",
+                "Wielding this staff grants the wielder proficiency to persuasion if they aren't already proficient with the stat. The proficiency is doubled if the wielder is already proficient with persuasion.",
+                "This staff allows the wielder to cast Misty Step once per short rest.",
+                "Once per long rest, the wielder can send a wave of dark energy in a 20ft cone. Creatures inside the cone must make a wisdom save (at your dc). When they fail, they'll take 4d6 Necrotic damage and are stunned until the start of your next turn. They only take half damage on a save."
+			]
+		},
+        {
+			"name": "Emberwood staf",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "+1 magical focus.",
+                "+1d6 fire damage on spells that deal fire damage."
+			]
+		},
+        {
+			"name": "Ethereal candle",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "De kaars kan enkel worden aangestoken met een spreukwoord en geeft een donker blauwe vlam af. De vlam is niet met water te doven en is enkel te doven door middel van het spreukwoord of door middel van zand. De kaars brand niet met hitte, maar met magie en het licht brand genoeg om 10ft helder te kunnen zien. Tevens worden binnen die 10ft onzichtbare creatures en wezens in de Aethereal plane zichtbaar."
+			]
+		},
+        {
+			"name": "Lightning resistance shield",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "Shield made of blue dragon scales. Provides lightning resistance."
+			]
+		},
+        {
+			"name": "Magic Quill",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "75% korting op inkt wanneer je spells opschrijft in je spellbook."
+			]
+		},
+        {
+			"name": "Mindflayer amulett",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "Sla voor 5 lvls aan spell slots op."
+			]
+		},
+        {
+			"name": "Mindmugger Mitts",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "Attunement",
+                "Advantage to sleight of hand checks while attuned",
+                "(3/day) Memory lapse -- bonus action. You can touch a target and they must succeed on a wisdom safe of 10 + 1/2 your level. Or else vorget everything from the round (6 seconds)"
+			]
+		},
+        {
+			"name": "Shadowglass Dagger",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                "Finesse, light, thrown (20/60 ft.)",
+                "On a hit with this weapon the target takes 1d4 piercing + 1d4 necrotic damage.",
+                "This dagger can be used to restrain a creature, large or smaller, through its shadow. You make a melee or ranged attack targeting a creature's shadow. It must save agaiinst a dex saving throw with a DC of (8+ proficiency + dex or str modifier) if it fails the creature is restrained until the dagger is removed from the shadow."
+			]
+		},
 	],
+    "feat": [
+        {
+			"name": "Enhanced breath attack",
+			"source": "MAI",
+            "prerequisite": [
+                {
+                    "other": "Dragonborn"
+                }
+            ],
+			"entries": [
+				"Breath attack wordt 4d10 in lijn van 30ft of als 15ft cone voor 4d12 + Spell attack bonus.",
+                "Dex save"
+                "Target hit drops 1 ac."
+			]
+		}
+    ],
 	"spell": [
 		{
 			"uniqueId": "1651cd1a-1a40-4064-8f02-31a0665b5a12",
