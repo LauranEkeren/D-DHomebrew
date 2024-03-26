@@ -1,5 +1,3 @@
-
-
 {
 	"_meta": {
 		"sources": [
@@ -128,7 +126,7 @@
                 "On a hit with this weapon the target takes 1d4 piercing + 1d4 necrotic damage.",
                 "This dagger can be used to restrain a creature, large or smaller, through its shadow. You make a melee or ranged attack targeting a creature's shadow. It must save agaiinst a dex saving throw with a DC of (8+ proficiency + dex or str modifier) if it fails the creature is restrained until the dagger is removed from the shadow."
 			]
-		},
+		}
 	],
     "feat": [
         {
@@ -141,7 +139,7 @@
             ],
 			"entries": [
 				"Breath attack wordt 4d10 in lijn van 30ft of als 15ft cone voor 4d12 + Spell attack bonus.",
-                "Dex save"
+                "Dex save",
                 "Target hit drops 1 ac."
 			]
 		}
