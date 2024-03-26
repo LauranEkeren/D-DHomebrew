@@ -1,94 +1,65 @@
+
+
 {
 	"_meta": {
 		"sources": [
 			{
-				"json": "Veldorshomebrew",
-				"abbreviation": "VH",
-				"full": "Veldors homebrew",
-				"version": "1.1"
+				"json": "MoiraiAdditionalinformation",
+				"abbreviation": "MAI",
+				"full": "Moirai Additional information",
+				"version": "1",
+				"url": "https://github.com/LauranEkeren/D-DHomebrew",
+				"authors": [
+					"Lauran"
+				]
 			}
 		]
 	},
-	"monster": [
+	"item": [
 		{
-			"name": "test is terg",
-			"size": [
-				"M"
-			],
-			"type": "aberration",
-			"source": "Veldorshomebrew",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d8"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "0"
-		},
-		{
-			"name": "test aaa",
-			"size": [
-				"M"
-			],
-			"type": "aberration",
-			"source": "Veldorshomebrew",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d8"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "0"
+			"name": "Amethyst Amulet",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+				"You can cast {@spell dispel magic} at your highest spell slot once per long rest."
+			]
 		}
 	],
-	{
-		"name": "Alchemy Jug",
-		"tier": "minor",
-		"rarity": "uncommon",
-		"wondrous": true,
-		"weight": 12,
-		"entries": [
-			"This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.",
-			"You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
-			"Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn."
-		],
-		"optionalfeatures": [
-			"replicate magic item|tce"
-		],
-		"lootTables": [
-			"Magic Item Table B"
-		],
-		"miscTags": [
-			"CF/W"
-		],
-		"hasFluffImages": true
-	}
+	"spell": [
+		{
+			"uniqueId": "1651cd1a-1a40-4064-8f02-31a0665b5a12",
+			"name": "New Spell",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [],
+			"source": "MoiraiAdditionalinformation"
+		}
+	]
 }
