@@ -19,6 +19,19 @@
 	},
 	"item": [
 		{
+			"name": "The Bow of the Centaurus",
+			"wondrous": true,
+			"rarity": "common",
+			"source": "MAI",
+			"entries": [
+                		"Needs attunement",
+				"+3 longbow magical focus.",
+				"Longbow: 1d8 piercing. 150/600 ft.",
+                		"Star Strike: This bow doesn't require ammunition to shoot and hits as if two arrows hit. It holds 4 charges that return after a long rest, to reroll a missed shot. Only if this reroll hits will only hit as if hit by one arrow.",
+                		"Shiny Strike: Concentrate the power of the Constellation Centaurus and hit with even more strength. This doubles the effect of Star Strike and can only be used once per day. Once this attack hits, the target's location will be known by the user for the next 7 days."
+			]
+		},
+		{
 			"name": "Amethyst Amulet",
 			"wondrous": true,
 			"tier": "minor",
